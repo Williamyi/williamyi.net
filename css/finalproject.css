@@ -1,0 +1,61 @@
+.menu {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+}
+.menu> li {
+  float: left;
+  margin-right: 1em;
+  margin-top: 2em;
+}
+.header{
+  background-color:grey;
+  text-align:center;
+  border-style:solid;
+
+}
+body{
+  font-family: 'RalewayRegular';
+   font-weight: normal;
+   font-style: normal;
+}
+.content{
+  float:left;
+  margin: 10px 0 40px 20px;
+}
+.wrap{
+  margin:40px auto;
+  width:100%;
+  max-width:1000px;
+}
+p{
+  float:left;
+  max-width:350px;
+}
+.boxes {
+  margin-right: -10px;
+}
+.big-box,
+.little-box {
+  box-sizing: border-box;
+  border:1px solid black;
+  margin-right: 10px;
+  padding: 20px;
+}
+.big-box {
+  float:left;
+  border:1px solid black;
+  width: calc(66.66666667% - 10px);
+  height: 300px;
+}
+.little-box {
+  float:left;
+  border:1px solid black;
+  margin-bottom: 10px;
+  width: calc(33.33333333% - 10px);
+  height: 145px;
+}
+.project5 {
+  background-image: url(../img/form.jpg);
+  background-size: cover;
+}
