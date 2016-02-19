@@ -14,14 +14,25 @@
   border-style:solid;
 
 }
+img {
+  max-width:100%;
+}
 body{
   font-family: 'RalewayRegular';
    font-weight: normal;
    font-style: normal;
 }
-.content{
-  float:left;
-  margin: 10px 0 40px 20px;
+.column1,
+.column2,
+.column3 {
+  float: left;
+  margin: 10px 10px 40px;
+}
+.column1 {
+  width: calc(33.33333333% - 20px);
+}
+.column2 {
+  width: calc(66.6666667% - 20px);
 }
 .wrap{
   margin:40px auto;
@@ -29,8 +40,10 @@ body{
   max-width:1000px;
 }
 p{
-  float:left;
   max-width:350px;
+}
+.contact,form{
+  float: left;
 }
 .boxes {
   margin-right: -10px;
