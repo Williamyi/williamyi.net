@@ -69,11 +69,49 @@ p{
   width: calc(33.33333333% - 10px);
   height: 145px;
 }
-.project5 {
-  background-image: url(../img/form.jpg);
+.project6 {
+  background-color: grey;
   background-size: cover;
 }
 .project1{
-  background-image: url(../img/resume.jpg);
+  background-color: grey;
   background-size: cover;
+}
+.project2{
+  background-color: grey;
+  background-size: cover;
+}
+.project3{
+  background-color: grey;
+  background-size: cover;
+}
+
+.project7{
+  background-image: url(../img/mussle.jpg);
+  background-size:cover
+}
+.project8{
+  background-image:url(../img/scallop.jpg);
+  background-size:cover
+}
+.project9{
+  background-image:url(../img/salad.jpg);
+  background-size:cover
+}
+.project10{
+  background-image:url(../img/lamb.jpg);
+  background-size:cover
+}
+.project11{
+  background-image:url(../img/fig.jpg);
+  background-size:cover
+}
+.project12{
+  background-image: url(../img/peach.jpg);
+  background-size:cover
+}
+.title{
+  text-align: center;
+  text-decoration: none;
+  color: black;
 }
