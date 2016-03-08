@@ -57,6 +57,10 @@ p{
 form{
   float: left;
 }
+
+.title{
+  margin: 0;
+}
 .boxes {
   margin-right: -10px;
 }
@@ -89,7 +93,7 @@ form{
   background-size:cover
 }
 .project9{
-  background-image:url(../img/salad.jpg);
+  background-image:url(http://ux.walkme.com/wp-content/uploads/2014/04/UX-Inforgraphic.png);
   background-size:cover
 }
 .project10{
@@ -103,7 +107,4 @@ form{
 .project12{
   background-image: url(../img/peach.jpg);
   background-size:cover
-}
-.title{
-  margin: 0;
 }
