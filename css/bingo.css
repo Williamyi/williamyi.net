@@ -1,0 +1,39 @@
+#page {
+ background-color: #403c3b;
+ margin: 0 auto 0 auto;
+ width: 75%;
+}
+h1 {
+ text-align: center;
+ font-family: 'UniqueRegular';
+ font-weight: normal;
+ font-size: 2.5em;
+ font-style: normal;
+}
+div .bingoCells,
+.title {
+ font-family: 'UniqueRegular';
+ border-top: 1px solid #fe9772;
+ border-bottom: 1px solid #9f593f;
+ border-left: 1px solid #fe9772;
+ border-right: 1px solid #9f593f;
+ font-size: 24px;
+ letter-spacing: .05em;
+ list-style-type: none;
+ text-shadow: 2px 2px 1px gray;
+ height: 50px;
+ width: 50px;
+ padding-left: 1em;
+ padding-top: 10px;
+}
+div .bingoCells {
+ background-color: white;
+ color: red;
+}
+div .title {
+ background-color: red;
+ color: white;
+}
+div .col {
+ float: left;
+}
