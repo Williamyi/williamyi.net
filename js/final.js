@@ -26,8 +26,16 @@ function validateEmail() {
   } else
     return true;
 }
+function validateComment(){
+  var vComment = document.getElementById("commentbox").value;
+  if (vComment.length > 0){
+    return true;
+  } else{
+    return false;
+  }
+}
 function validateForm() {
-  return validateFirstname() && validateLastname();
+  return validateFirstname() && validateLastname() && validateComment() && validateEmail();
 }
 
 

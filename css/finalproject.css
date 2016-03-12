@@ -56,6 +56,7 @@ p{
 .contact,
 form{
   float: left;
+  width:100%;
 }
 
 .title{
