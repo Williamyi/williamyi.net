@@ -38,14 +38,6 @@ function validateForm() {
   return validateFirstname() && validateLastname() && validateComment() && validateEmail();
 }
 
-
-
-
-
-
-
-
-
 function SetDate() {
   var myDate = new Date();
   var d = myDate.toDateString();
